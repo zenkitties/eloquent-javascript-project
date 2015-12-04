@@ -1,5 +1,5 @@
 //The sum of a range
-var numbers = [];
+/*var numbers = [];
 
 //This uses the reduce function and essentially adds each item in the
 //numbers array into one big number!
@@ -33,4 +33,33 @@ range(30,60);
 console.log(numbers);
 
 sum(30,60);
+*/
 
+//REVERSING AN ARRAY 
+/*
+sample_array = ["Nick","Cat","Steve","Burl Megaman","Kevin","Hrant"]
+reverse_array = [];
+reverse_array_in_place = [];
+
+
+//this function will reverse a specific array put into it.
+
+var reverseArray = function(arguments) {
+    for (i = arguments.length - 1; i >= 0; i--) {
+        reverse_array.push(arguments[i]);
+    }
+}
+
+//this function will reverese any specified array.
+var reverseArrayInPlace = function(array) {
+    for (i = array.length - 1; i >= 0; i--) {
+        reverse_array_in_place.push(array[i]);
+    }
+}
+
+//these are the outputs and proof that the two functions do what they are suppose to.
+reverseArray([1,3,4,"Nick",5, "Cat", false, 20]);
+reverseArrayInPlace(sample_array);
+console.log(reverse_array_in_place);
+console.log(reverse_array);
+*/
